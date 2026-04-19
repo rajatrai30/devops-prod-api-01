@@ -1,0 +1,2 @@
+command for eslint and prettier for formatting
+npm install eslint @eslint/js prettier eslint-config-prettier eslint-plugin-prettier -D
