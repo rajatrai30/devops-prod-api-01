@@ -1,0 +1,12 @@
+sh related:
+cmd: mkdir -p .neon_local
+-p (very important flag)
+Means “create parent directories if needed”
+Also: don’t throw an error if the directory already exists
+
+cmd: if ! grep -q ".neon_local/" .gitignore 2>/dev/null; then
+grep -q ".neon_local/" .gitignore
+Uses grep to search inside .gitignore.
+-q = quiet mode (no output; just exit status).
+Looks for the text .neon_local/.
+

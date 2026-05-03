@@ -1,10 +1,9 @@
-import logger from '#src/config/logger.js';
+import logger from '#config/logger.js';
 import { signupSchema, signInSchema } from '#validations/auth.validation.js';
+import { formatValidationError } from '#utils/format.js';
 import { createUser, authenticateUser } from '#services/auth.service.js';
-import { cookies } from '#src/utils/cookies.js';
-import { formatValidationError } from '#src/utils/format.js';
-import { jwttoken } from '#src/utils/jwt.js';
-// import { signupSchema } from '#src/validations/auth.validation.js';
+import { jwttoken } from '#utils/jwt.js';
+import { cookies } from '#utils/cookies.js';
 
 export const signup = async (req, res, next) => {
   try {
@@ -19,22 +18,17 @@ export const signup = async (req, res, next) => {
 
     const { name, email, password, role } = validationResult.data;
 
-    // AUTH SERVICE call
     const user = await createUser({ name, email, password, role });
 
-    // create user
     const token = jwttoken.sign({
       id: user.id,
       email: user.email,
       role: user.role,
     });
 
-    // set the cookies
     cookies.set(res, 'token', token);
 
-    // Log the registered user
     logger.info(`User registered successfully: ${email}`);
-
     res.status(201).json({
       message: 'User registered',
       user: {
@@ -46,14 +40,15 @@ export const signup = async (req, res, next) => {
     });
   } catch (e) {
     logger.error('Signup error', e);
+
     if (e.message === 'User with this email already exists') {
       return res.status(409).json({ error: 'Email already exist' });
     }
+
     next(e);
   }
 };
 
-// SIGN IN
 export const signIn = async (req, res, next) => {
   try {
     const validationResult = signInSchema.safeParse(req.body);
@@ -98,7 +93,6 @@ export const signIn = async (req, res, next) => {
   }
 };
 
-// SIGN OUT
 export const signOut = async (req, res, next) => {
   try {
     cookies.clear(res, 'token');
