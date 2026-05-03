@@ -55,3 +55,45 @@
 {"level":"info","message":"User rajatavc@gmail.com created successfully","service":"devops-prod-api"}
 {"level":"info","message":"User registered successfully: rajatavc@gmail.com","service":"devops-prod-api"}
 {"level":"info","message":"::1 - - [03/May/2026:09:35:11 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 107 \"-\" \"HTTPie\"","service":"devops-prod-api"}
+{"level":"info","message":"User rajatavc@gmail.com authenticated successfully","service":"devops-prod-api"}
+{"level":"info","message":"User signed in successfully: rajatavc@gmail.com","service":"devops-prod-api"}
+{"level":"info","message":"::1 - - [03/May/2026:09:50:28 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 119 \"-\" \"HTTPie\"","service":"devops-prod-api"}
+{"level":"info","message":"User mailmerairajat@gmail.com authenticated successfully","service":"devops-prod-api"}
+{"level":"info","message":"User signed in successfully: mailmerairajat@gmail.com","service":"devops-prod-api"}
+{"level":"info","message":"::1 - - [03/May/2026:09:50:47 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 125 \"-\" \"HTTPie\"","service":"devops-prod-api"}
+{"level":"info","message":"::1 - - [03/May/2026:09:51:13 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 400 144 \"-\" \"HTTPie\"","service":"devops-prod-api"}
+{"level":"info","message":"User rajatavc@gmail.com authenticated successfully","service":"devops-prod-api"}
+{"level":"info","message":"User signed in successfully: rajatavc@gmail.com","service":"devops-prod-api"}
+{"level":"info","message":"::1 - - [03/May/2026:09:51:37 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 119 \"-\" \"HTTPie\"","service":"devops-prod-api"}
+{"level":"info","message":"::1 - - [03/May/2026:09:51:45 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 400 144 \"-\" \"HTTPie\"","service":"devops-prod-api"}
+{"level":"info","message":"::1 - - [03/May/2026:09:52:04 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 400 144 \"-\" \"HTTPie\"","service":"devops-prod-api"}
+{"level":"info","message":"::1 - - [03/May/2026:09:52:05 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 400 144 \"-\" \"HTTPie\"","service":"devops-prod-api"}
+{"level":"info","message":"::1 - - [03/May/2026:09:52:06 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 400 144 \"-\" \"HTTPie\"","service":"devops-prod-api"}
+{"level":"info","message":"::1 - - [03/May/2026:09:52:06 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 400 144 \"-\" \"HTTPie\"","service":"devops-prod-api"}
+{"level":"info","message":"::1 - - [03/May/2026:09:52:06 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 400 144 \"-\" \"HTTPie\"","service":"devops-prod-api"}
+{"level":"info","message":"::1 - - [03/May/2026:09:52:06 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 400 144 \"-\" \"HTTPie\"","service":"devops-prod-api"}
+{"level":"info","message":"::1 - - [03/May/2026:09:52:07 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 400 144 \"-\" \"HTTPie\"","service":"devops-prod-api"}
+{"level":"info","message":"::1 - - [03/May/2026:09:52:07 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 400 144 \"-\" \"HTTPie\"","service":"devops-prod-api"}
+{"level":"info","message":"::1 - - [03/May/2026:09:52:07 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 400 144 \"-\" \"HTTPie\"","service":"devops-prod-api"}
+{"level":"info","message":"::1 - - [03/May/2026:09:52:07 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 400 144 \"-\" \"HTTPie\"","service":"devops-prod-api"}
+{"level":"info","message":"::1 - - [03/May/2026:09:52:07 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 400 144 \"-\" \"HTTPie\"","service":"devops-prod-api"}
+{"level":"info","message":"::1 - - [03/May/2026:09:52:07 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 400 144 \"-\" \"HTTPie\"","service":"devops-prod-api"}
+{"level":"info","message":"::1 - - [03/May/2026:09:52:08 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 400 144 \"-\" \"HTTPie\"","service":"devops-prod-api"}
+{"level":"info","message":"::1 - - [03/May/2026:09:52:08 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 400 144 \"-\" \"HTTPie\"","service":"devops-prod-api"}
+{"level":"info","message":"::1 - - [03/May/2026:09:52:08 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 400 144 \"-\" \"HTTPie\"","service":"devops-prod-api"}
+{"level":"info","message":"::1 - - [03/May/2026:09:52:08 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 400 144 \"-\" \"HTTPie\"","service":"devops-prod-api"}
+{"level":"info","message":"::1 - - [03/May/2026:09:52:08 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 400 144 \"-\" \"HTTPie\"","service":"devops-prod-api"}
+{"level":"info","message":"::1 - - [03/May/2026:09:52:08 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 400 144 \"-\" \"HTTPie\"","service":"devops-prod-api"}
+{"level":"info","message":"::1 - - [03/May/2026:09:52:09 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 400 144 \"-\" \"HTTPie\"","service":"devops-prod-api"}
+{"level":"info","message":"::1 - - [03/May/2026:09:52:09 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 400 144 \"-\" \"HTTPie\"","service":"devops-prod-api"}
+{"level":"info","message":"::1 - - [03/May/2026:09:52:09 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 400 144 \"-\" \"HTTPie\"","service":"devops-prod-api"}
+{"level":"info","message":"::1 - - [03/May/2026:09:52:09 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 400 144 \"-\" \"HTTPie\"","service":"devops-prod-api"}
+{"level":"info","message":"::1 - - [03/May/2026:09:52:09 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 400 144 \"-\" \"HTTPie\"","service":"devops-prod-api"}
+{"level":"info","message":"::1 - - [03/May/2026:09:52:09 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 400 144 \"-\" \"HTTPie\"","service":"devops-prod-api"}
+{"level":"info","message":"::1 - - [03/May/2026:09:53:06 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 400 144 \"-\" \"HTTPie\"","service":"devops-prod-api"}
+{"level":"info","message":"::1 - - [03/May/2026:09:53:08 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 400 144 \"-\" \"HTTPie\"","service":"devops-prod-api"}
+{"level":"info","message":"User rajatavc@gmail.com authenticated successfully","service":"devops-prod-api"}
+{"level":"info","message":"User signed in successfully: rajatavc@gmail.com","service":"devops-prod-api"}
+{"level":"info","message":"::1 - - [03/May/2026:09:53:32 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 119 \"-\" \"HTTPie\"","service":"devops-prod-api"}
+{"level":"info","message":"User signed out successfully","service":"devops-prod-api"}
+{"level":"info","message":"::1 - - [03/May/2026:09:53:44 +0000] \"POST /api/auth/sign-out HTTP/1.1\" 200 42 \"-\" \"HTTPie\"","service":"devops-prod-api"}
