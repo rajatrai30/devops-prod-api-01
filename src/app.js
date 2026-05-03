@@ -5,7 +5,7 @@ import morgan from 'morgan';
 import cors from 'cors';
 import cookieParser from 'cookie-parser';
 import usersRoutes from '#routes/auth.routes.js';
-
+import securityMiddleware from './middleware/security.middleware.js';
 const app = express();
 app.use(helmet());
 app.use(cors());
@@ -17,6 +17,9 @@ app.use(
     stream: { write: message => logger.info(message.trim()) },
   })
 );
+
+// Security middleware
+app.use(securityMiddleware);
 
 // Default route
 app.get('/', (req, res) => {
