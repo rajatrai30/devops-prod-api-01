@@ -240,3 +240,25 @@
 {"level":"info","message":"::1 - - [03/May/2026:19:23:05 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"devops-prod-api"}
 {"level":"info","message":"::1 - - [03/May/2026:19:23:35 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"devops-prod-api"}
 {"level":"info","message":"::1 - - [03/May/2026:19:24:06 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"devops-prod-api"}
+{"level":"info","message":"::1 - - [03/May/2026:19:32:02 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"-\"","service":"devops-prod-api"}
+{"level":"info","message":"User testuser@test.com created successfully","service":"devops-prod-api"}
+{"level":"info","message":"User registered successfully: testuser@test.com","service":"devops-prod-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [03/May/2026:19:32:11 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 106 \"-\" \"HTTPie\"","service":"devops-prod-api"}
+{"level":"info","message":"::1 - - [03/May/2026:19:32:33 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"-\"","service":"devops-prod-api"}
+{"level":"info","message":"::1 - - [03/May/2026:19:33:03 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"-\"","service":"devops-prod-api"}
+{"level":"info","message":"::1 - - [03/May/2026:19:33:33 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"-\"","service":"devops-prod-api"}
+{"level":"info","message":"::1 - - [03/May/2026:19:34:04 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"devops-prod-api"}
+{"level":"info","message":"::1 - - [03/May/2026:19:34:34 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"devops-prod-api"}
+{"level":"info","message":"::1 - - [03/May/2026:19:35:04 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"devops-prod-api"}
+{"level":"info","message":"::1 - - [03/May/2026:19:35:35 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"devops-prod-api"}
+{"level":"info","message":"::1 - - [03/May/2026:19:36:05 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"devops-prod-api"}
+{"level":"info","message":"::1 - - [03/May/2026:19:36:36 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"devops-prod-api"}
+{"level":"info","message":"::1 - - [03/May/2026:19:37:06 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"devops-prod-api"}
+{"level":"info","message":"::1 - - [03/May/2026:19:37:36 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"devops-prod-api"}
+{"level":"info","message":"::1 - - [03/May/2026:19:38:07 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"-\"","service":"devops-prod-api"}
+{"level":"info","message":"::1 - - [03/May/2026:19:38:37 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"devops-prod-api"}
+{"level":"info","message":"::1 - - [03/May/2026:19:39:07 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"devops-prod-api"}
+{"level":"info","message":"::1 - - [03/May/2026:19:39:38 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"devops-prod-api"}
+{"level":"info","message":"::1 - - [03/May/2026:19:40:08 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"devops-prod-api"}
+{"level":"info","message":"::1 - - [03/May/2026:19:40:38 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"devops-prod-api"}
+{"level":"info","message":"::1 - - [03/May/2026:19:41:08 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"devops-prod-api"}
