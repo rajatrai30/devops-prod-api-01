@@ -3,7 +3,7 @@
 # Development startup script for DevOps prod App with Neon Local
 # This script starts the application in development mode with Neon Local
 
-echo "🚀 Starting Acquisition App in Development Mode"
+echo "🚀 Starting DevOps Prod API App in Development Mode"
 echo "================================================"
 
 # Check if .env.development exists
