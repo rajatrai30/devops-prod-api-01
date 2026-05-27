@@ -1,6 +1,6 @@
 set -e
 
-NAME="devops-prod-api-app"
+NAME="devops-prod-api-app-dev"
 USERNAME="rajatrai30"
 IMAGE=$USERNAME/$NAME:latest
 
@@ -14,11 +14,11 @@ echo "Applying Kubernetes manifests..."
 kubectl apply -f k8s/deployment.yaml
 kubectl apply -f k8s/service.yaml
 
-echo "Getting pods..."
-kubectl get pods
+# echo "Getting pods..."
+# kubectl get pods
 
-echo "Getting services..."
-kubectl get services
+# echo "Getting services..."
+# kubectl get services
 
-echo "Fetching the main service..."
-kubectl get services $NAME-service
+# echo "Fetching the main service..."
+# kubectl get services $NAME-service

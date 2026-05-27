@@ -1,7 +1,7 @@
 version: '3.8'
 
 services:
-  # Node.js application for prod
+  # Node.js application for production
   app:
     build:
       context: .
@@ -13,23 +13,23 @@ services:
     env_file:
       - .env.production
     volumes:
-      # Mounts log directory for production logging
+      # Mount logs directory for production logging
       - ./logs:/app/logs
     restart: unless-stopped
     deploy:
       resources:
         limits:
-          memory: 512M,
+          memory: 512M
           cpus: '0.5'
         reservations:
-          memory: 256M,
+          memory: 256M
           cpus: '0.25'
     healthcheck:
       test:
         [
           'CMD',
           'node',
-          'e',
+          '-e',
           "require('http').get('http://localhost:3000/health', (res) => { process.exit(res.statusCode === 200 ? 0 : 1) }).on('error', () => { process.exit(1) })",
         ]
       interval: 30s

@@ -27,6 +27,7 @@
     "dev:docker": "sh ./scripts/dev.sh",
     "prod:docker": "sh ./scripts/prod.sh",
     "deploy": "sh ./scripts/deploy.sh",
+    "push": "sh ./scripts/push.sh",
     "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest"
   },
   "keywords": [],

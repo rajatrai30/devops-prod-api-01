@@ -25,9 +25,9 @@ app.use(
 app.use(securityMiddleware);
 
 app.get('/', (req, res) => {
-  logger.info('Hello from Acquisitions!');
+  logger.info('Hello from DevOps Prod API!!');
 
-  res.status(200).send('Hello from Acquisitions!');
+  res.status(200).send('Hello from DevOps Prod API!');
 });
 
 app.get('/health', (req, res) => {

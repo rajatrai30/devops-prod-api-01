@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: devops-prod-api-app
-          image: rajatrai30/devops-prod-api-app
+          image: rajatrai30/devops-prod-api-app-dev:latest
           ports:
             - containerPort: 3000
           env:
