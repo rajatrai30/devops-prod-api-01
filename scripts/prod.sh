@@ -25,7 +25,7 @@ echo "   - Using Neon Cloud Database (no local proxy)"
 echo "   - Running in optimized production mode"
 echo ""
 
-# Start production environment
+# Start production environment in detached mode
 docker compose -f docker-compose.prod.yml up --build -d
 
 # Wait for DB to be ready (basic health check)
