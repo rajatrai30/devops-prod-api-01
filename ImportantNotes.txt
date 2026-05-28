@@ -9,4 +9,3 @@ grep -q ".neon_local/" .gitignore
 Uses grep to search inside .gitignore.
 -q = quiet mode (no output; just exit status).
 Looks for the text .neon_local/.
-
